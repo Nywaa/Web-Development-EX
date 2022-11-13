@@ -1,3 +1,4 @@
+/* -- Global Selector -- */
 body
 {
     margin: 0;
@@ -8,7 +9,30 @@ h1
     margin: 0px;
 }
 
-div
+/* -- Class Selector -- */
+.top-container
 {
-    background-color: aqua;
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+    border: solid 10px;
+    padding: 20px;
+}
+
+.mid-container
+{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border: solid 20px;
+    margin-left: 260px;
+}
+
+.bottom-container
+{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border: solid 10px;
+    margin-left: 500px;
 }
