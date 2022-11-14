@@ -2,6 +2,7 @@
 body
 {
     margin: 0;
+    text-align: center;
 }
 
 h1
@@ -12,12 +13,9 @@ h1
 /* -- Class Selector -- */
 .top-container
 {
-    background-color: red;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    top: 400px;
-    left: 400px;
+    background-color: aquamarine;
+    position: relative;
+    padding-top: 100px;
 }
 
 .mid-container
@@ -25,9 +23,6 @@ h1
     background-color: blue;
     height: 200px;
     width: 200px;
-    position: absolute;
-    top: 200px;
-    left: 200px;
 }
 
 .bottom-container
@@ -35,13 +30,18 @@ h1
     background-color: yellow;
     height: 200px;
     width: 200px;
-    position: absolute;
 }
 
-.fixed-container
+.top-cloud
 {
-    background-color: orange;
-    height: 200px;
-    width: 200px;
-    position: fixed;
+    position: absolute;
+    top: 40px;
+    right: 650px;
+}
+
+.bottom-cloud
+{
+    position: absolute;
+    left: 600px;
+    bottom: 300px;
 }
