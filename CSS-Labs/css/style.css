@@ -2,15 +2,26 @@
 body
 {
     margin: 0;
-    text-align: center;
+    text-align: center; 
 }
 
 h1
 {
     margin: 0px;
+    
 }
 
 /* -- Class Selector -- */
+.chief-name
+{
+    font-family: 'Rubik', sans-serif;
+}
+
+.chief-desc
+{
+    font-family: 'Dancing Script', cursive;
+}
+
 .top-container
 {
     background-color: aquamarine;
