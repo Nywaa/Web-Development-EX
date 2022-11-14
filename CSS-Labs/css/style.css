@@ -12,30 +12,36 @@ h1
 /* -- Class Selector -- */
 .top-container
 {
-    background-color: aquamarine;
+    background-color: red;
     height: 200px;
     width: 200px;
-    display: inline-block;
-    position: relative;
+    position: absolute;
+    top: 400px;
     left: 400px;
 }
 
 .mid-container
 {
-    background-color: red;
+    background-color: blue;
     height: 200px;
     width: 200px;
-    display: inline-block;
-    position: relative;
-    right: 200px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
 }
 
 .bottom-container
 {
-    background-color: blue;
+    background-color: yellow;
     height: 200px;
     width: 200px;
-    display: inline-block;
-    position: relative;
-    right: 200px;
+    position: absolute;
+}
+
+.fixed-container
+{
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    position: fixed;
 }
