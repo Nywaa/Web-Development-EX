@@ -5,42 +5,43 @@ body
     text-align: center; 
 }
 
-h1
+h1, h2
 {
-    margin: 0px;
-    
+    color: #FB284D;
 }
 
-/* -- Class Selector -- */
-.chief-name
+h2, h3
 {
     font-family: 'Rubik', sans-serif;
 }
 
-.chief-desc
+h3, a
+{
+    color: #FD7078;
+}
+
+h1
 {
     font-family: 'Dancing Script', cursive;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-size: 5rem; /* 16px = 100% = 1rem */
+    line-height: 2;
 }
+
+h2
+{
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+/* -- Class Selector -- */
 
 .top-container
 {
-    background-color: aquamarine;
+    background-color: #FFF5E4;
     position: relative;
     padding-top: 100px;
-}
-
-.mid-container
-{
-    background-color: blue;
-    height: 200px;
-    width: 200px;
-}
-
-.bottom-container
-{
-    background-color: yellow;
-    height: 200px;
-    width: 200px;
 }
 
 .top-cloud
@@ -55,4 +56,26 @@ h1
     position: absolute;
     left: 600px;
     bottom: 300px;
+}
+
+.skill-row
+{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.programming-image
+{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.gaming-image
+{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
 }
