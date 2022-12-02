@@ -35,8 +35,17 @@ h2
     font-weight: normal;
 }
 
-/* -- Class Selector -- */
+hr
+{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #FD7078;
+    border-width: 5px;
+    width: 5%;
+}
 
+
+/* -- Class Selector -- */
 .top-container
 {
     background-color: #FFF5E4;
@@ -56,6 +65,18 @@ h2
     position: absolute;
     left: 600px;
     bottom: 300px;
+}
+
+.intro
+{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.mid-container
+{
+    background-color: #faf4eb;
 }
 
 .skill-row
@@ -78,4 +99,39 @@ h2
     width: 25%;
     float: right;
     margin-left: 30px;
+}
+
+.btn
+{
+    background: #FB284D;
+    background-image: -webkit-linear-gradient(top, #FB284D, #FD7078);
+    background-image: -moz-linear-gradient(top, #FB284D, #FD7078);
+    background-image: -ms-linear-gradient(top, #FB284D, #FD7078);
+    background-image: -o-linear-gradient(top, #FB284D, #FD7078);
+    background-image: linear-gradient(to bottom, #FB284D, #FD7078);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.bottom-container
+{
+    background-color: #FFF5E4;
+    position: relative;
+    padding-top: 50px;
+    height: 100px;
+}
+
+.footer-link
+{
+    font-size: 1.2rem;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
 }
