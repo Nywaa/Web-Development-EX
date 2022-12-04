@@ -1,0 +1,34 @@
+/* -- Global Selector -- */
+
+h1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* -- Class Selector -- */
+.web-slogan
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.slogan-desc
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* -- ID Selector -- */
+#navigationBar
+{
+    background-color: #ff4c68;
+    font-weight: bold;
+}
+
+#webTitles
+{
+    color: white;
+    background-color: #ff4c68;
+}
