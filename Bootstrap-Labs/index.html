@@ -17,109 +17,79 @@
         <!-- Bootstrap Javascript -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
+        <!-- Font Awesome Javascript -->
+        <script src="https://kit.fontawesome.com/0a25bc799f.js" crossorigin="anonymous"></script>
+
         <!-- Personal CSS -->
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <!-- Navigation Bar -->
-        <section id="navigationBar">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container-fluid">
-                    <!-- Navbar Brand-->
-                    <a href="" class="navbar-brand">VRChat Indonesia</a>
+        <!-- Navigation Bar & We Titles -->
+        <section id="webTitles">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                     <!-- Navbar Brand-->
+                     <a href="" class="navbar-brand">VRChat Indonesia</a>
+        
+                     <!-- Navbar Responsive Collapse Toggler -->
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                     </button>
+     
+                     <!-- Navbar Collapse Item-->
+                     <div class="collapse navbar-collapse" id="navbarToggler">
+                         <ul class="navbar-nav me-auto">
+                             <li class="nav-item">
+                                 <a href="" class="nav-link">Features</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a href="" class="nav-link">Contacts</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a href="" class="nav-link">About Us</a>
+                             </li>
+                         </ul>
+                     </div>
+                </nav>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="web-slogan">Temukan teman baru di dunia virtual!</h1>
+                        <p class="slogan-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates magnam velit tenetur sapiente delectus voluptatem veniam corrupti, minus ratione sint enim repudiandae magni, doloribus excepturi modi necessitatibus beatae rerum. Modi!</p>
+                        <a href="https://vrchat.com/home/group/grp_aeff1e5a-8a73-4d88-97b9-c42c6560d8d9" target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-dark"><i class="fa-solid fa-vr-cardboard"></i> VRChat Group</a>
+                        <a href="https://discord.gg/y2Jz83S" target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-outline-light"><i class="fa-brands fa-discord"></i> Discord Server</a>
+                    </div>
     
-                    <!-- Navbar Responsive Collapse Toggler -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-    
-                    <!-- Navbar Collapse Item-->
-                    <div class="collapse navbar-collapse" id="navbarToggler">
-                        <ul class="navbar-nav me-auto">
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Features</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Contacts</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="" class="nav-link">About Us</a>
-                            </li>
-                        </ul>
+                    <div class="col-lg-6">
+                        <img src="images/titles-img.png" alt="vrchat-avatar" class="title-image">
                     </div>
                 </div>
-            </nav>
-        </section>
-
-        <!-- Website Titles -->
-        <section id="webTitles">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h1 class="web-slogan">Temukan teman baru di dunia virtual!</h1>
-                    <p class="slogan-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates magnam velit tenetur sapiente delectus voluptatem veniam corrupti, minus ratione sint enim repudiandae magni, doloribus excepturi modi necessitatibus beatae rerum. Modi!</p>
-                    <button>VRChat Group</button>
-                    <button>Discord Server</button>
-                </div>
-
-                <div class="col-lg-6">
-                    <img src="images/titles-img.png" alt="vrchat-avatar">
-                </div>
             </div>
         </section>
 
-        <!-- Row & Col Experiment -->
-        <div class="row">
-            <div class="col" style="background-color: red; border: 1px solid black;">
-                col
-            </div>
-            <div class="col" style="background-color: red; border: 1px solid black;">
-                col
-            </div>
-        </div>
+        <section id="webFeatures">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p><i class="fa-solid fa-poo icon-features"></i></p>
+                        <h1 class="nameFeature">Mudah digunakan.</h1>
+                        <p>Sangat mudah, bahkan nenek dan kakekmu bisa.</p>
+                    </div>
 
-        <div class="row">
-            <div class="col-6" style="background-color: green; border: 1px solid black;">
-                col-6
-            </div>
-            <div class="col-6" style="background-color: green; border: 1px solid black;">
-                col-6
-            </div>
-        </div>
+                    <div class="col-lg-4">
+                        <p><i class="fa-solid fa-bolt icon-features"></i></p>
+                        <h1 class="nameFeature">Cepat.</h1>
+                        <p>Mempercepat produktifitasmu secepat atta halilintar.</p>
+                        
+                    </div>
 
-        <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: yellow; border: 1px solid black;">
-                col-lg-3 col-md-4 col-sm-6
+                    <div class="col-lg-4">
+                        <p><i class="fa-solid fa-money-bill icon-features"></i></p>
+                        <h1 class="nameFeature">Murah.</h1>
+                        <p>Murahnya diluar nalar banget, wahhh murah banget!!!.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: yellow; border: 1px solid black;">
-                col-lg-3 col-md-4 col-sm-6
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: yellow; border: 1px solid black;">
-                col-lg-3 col-md-4 col-sm-6
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: yellow; border: 1px solid black;">
-                col-lg-3 col-md-4 col-sm-6
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-2 col-md-3" style="background-color: grey; border: 1px solid black">
-                col-lg-2 col-md-3
-            </div>
-            <div class="col-lg-2 col-md-3" style="background-color: grey; border: 1px solid black">
-                col-lg-2 col-md-3
-            </div>
-            <div class="col-lg-2 col-md-3" style="background-color: grey; border: 1px solid black">
-                col-lg-2 col-md-3
-            </div>
-            <div class="col-lg-2 col-md-3" style="background-color: grey; border: 1px solid black">
-                col-lg-2 col-md-3
-            </div>
-            <div class="col-lg-2 col-md-3" style="background-color: grey; border: 1px solid black">
-                col-lg-2 col-md-3
-            </div>
-            <div class="col-lg-2 col-md-3" style="background-color: grey; border: 1px solid black">
-                col-lg-2 col-md-3
-            </div>
-        </div>
+        </section>
     </body>
 </html>

@@ -8,6 +8,34 @@ h1
 }
 
 /* -- Class Selector -- */
+.container-fluid
+{
+    padding: 3% 15%;
+}
+
+.navbar
+{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
 .web-slogan
 {
     font-size: 3rem;
@@ -19,16 +47,36 @@ h1
     font-family: 'Montserrat', sans-serif;
 }
 
-
-/* -- ID Selector -- */
-#navigationBar
+.btn
 {
-    background-color: #ff4c68;
     font-weight: bold;
+    margin: 5% 3% 5% 0;
 }
 
+.nameFeature
+{
+    font: 1.5rem;
+}
+
+.icon-features
+{
+    font-size: 5rem;
+}
+
+.icon-features:hover
+{
+    transition: ease-in 0.2s;
+    color: #ff4c68;
+}
+
+/* -- ID Selector -- */
 #webTitles
 {
-    color: white;
     background-color: #ff4c68;
+    color: white;
+}
+
+#webFeatures
+{
+    text-align: center;
 }
