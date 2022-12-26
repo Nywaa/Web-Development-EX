@@ -1,6 +1,8 @@
-//Ask user's dog age
-var dogAge = prompt("Please insert your dog age here : ");
+//Function to but es degan ijo
+function getEsDegan(money)
+{
+    var amountEsDegan = Math.floor(money / 3000);
+    console.log("You will get " + amountEsDegan + " amount of es degan with Rp." + money);
+}
 
-//Dog age to human age formula 
-var humanAge = ((dogAge-2) * 4) + 21;
-console.log("Your dog age is " + humanAge + " in human age");
+getEsDegan(20000);
